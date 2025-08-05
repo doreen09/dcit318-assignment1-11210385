@@ -8,3 +8,17 @@ Isosceles: Two sides are equal.
 Scalene: No sides are equal. 
 */
 
+class TriangleType
+{
+    static void Main()
+    {
+        Console.Write("Please enter the length of side 1: ");
+        int side1 = int.Parse(Console.ReadLine());
+
+        Console.Write("Please enter the length of side 2: ");
+        int side2 = int.Parse(Console.ReadLine());
+
+        Console.Write("Please enter the length of side 3: ");
+        int side3 = int.Parse(Console.ReadLine());
+    }
+}
