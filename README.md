@@ -13,7 +13,7 @@ Each app prompts the user for input and responds with the appropriate output usi
 ### Description
 Prompts the user to enter a numerical grade between **0 and 100**, then displays the **corresponding letter grade**.
 
-### 📊 Grade Scale
+### Grade Scale
 - **90 and above** → `A`  
 - **80–89** → `B`  
 - **70–79** → `C`  
@@ -53,7 +53,7 @@ Determines the type of triangle based on the **lengths of three sides** entered 
 4. Run the executable
 
 
-> Make sure to replace `Program.cs` with the actual filenames.
+Make sure to replace `Program.cs` with the actual filenames.
 
 
 **Created by**: Doreen Owireduaa Amankwah  
