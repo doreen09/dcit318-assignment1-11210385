@@ -1,23 +1,23 @@
 ﻿using System;
 
-class MovieTicket
+class TicketPriceCalculator
 {
     static void Main()
     {
         Console.Write("Enter your age: ");
         int age = int.Parse(Console.ReadLine());
 
-        int price;
+        int priceOfTicket;
 
         if (age <= 12 || age >= 65)
         {
-            price = 7;
+            priceOfTicket = 7;
         }
         else
         {
-            price = 10;
+            priceOfTicket = 10;
         }
 
-        Console.WriteLine("Your ticket price is: GHC" + price);
+        Console.WriteLine("Your ticket price is: GHC" + priceOfTicket);
     }
 }
