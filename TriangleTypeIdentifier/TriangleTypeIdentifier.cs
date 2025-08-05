@@ -11,6 +11,7 @@ Scalene: No sides are equal.
 class TriangleType
 {
     static void Main()
+//User Input Logic
     {
         Console.Write("Please enter the length of side 1: ");
         int side1 = int.Parse(Console.ReadLine());
@@ -20,5 +21,19 @@ class TriangleType
 
         Console.Write("Please enter the length of side 3: ");
         int side3 = int.Parse(Console.ReadLine());
+
+//Calculating the sides
+        if (side1 == side2 && side2 == side3)
+        {
+            Console.WriteLine("This is an Equilateral triangle.");
+        }
+        else if (side1 == side2 || side2 == side3 || side1 == side3)
+        {
+            Console.WriteLine("This is an Isosceles triangle.");
+        }
+        else
+        {
+            Console.WriteLine("This is a Scalene triangle.");
+        }
     }
 }
